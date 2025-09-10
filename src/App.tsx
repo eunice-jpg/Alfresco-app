@@ -1,7 +1,5 @@
-import Signup from "./pages/SignUp";
-
 function App() {
-  return <SignUp />;
+  return <h1>Hello from App.tsx 👋</h1>;
 }
 
 export default App;
