@@ -27,7 +27,7 @@ const Signup: React.FC = () => {
         justifyContent: "center",
       }}
     >
-      {/* Titre */}
+      {/* Title */}
       <h1
         style={{
           fontFamily: "Inter, sans-serif",
@@ -41,7 +41,7 @@ const Signup: React.FC = () => {
         Sign Up
       </h1>
 
-      {/* Sous-titre */}
+      {/* Sub-title */}
       <h3
         style={{
           fontFamily: "Inter, sans-serif",
@@ -55,7 +55,7 @@ const Signup: React.FC = () => {
         Please fill in this form to create an account!
       </h3>
 
-      {/* Champ Email */}
+      {/* Email field */}
       <input
         type="email"
         placeholder="Email"
@@ -74,7 +74,7 @@ const Signup: React.FC = () => {
         }}
       />
 
-      {/* Champ Password */}
+      {/* Password field */}
       <input
         type="password"
         placeholder="Password"
@@ -115,7 +115,7 @@ const Signup: React.FC = () => {
         <option value="admin">Admin</option>
       </select>
 
-      {/* Bouton Register */}
+      {/* Button Register */}
       <button
         onClick={handleRegister}
         style={{
@@ -136,7 +136,7 @@ const Signup: React.FC = () => {
         Register
       </button>
 
-      {/* Lien Forgot Password */}
+      {/* Link Forgot Password */}
       <h6
         style={{
           fontFamily: "Inter, sans-serif",
